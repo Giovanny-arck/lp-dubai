@@ -45,7 +45,7 @@ body {
   
   /* --- IMPORTANTE: ALTERE AS IMAGENS AQUI --- */
   /* Mobile default */
-  background-image: linear-gradient(50deg,rgba(50, 50, 50, 0.97) 1%, rgba(97, 94, 94, 0) 90%), url('/Imagens/transição\ dubai-portobelo.webp'); 
+  background-image: linear-gradient(50deg,rgba(50, 50, 50, 0.97) 1%, rgba(97, 94, 94, 0) 90%), url('/Imagens/REDMENSIONADA.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ body {
 @media (min-width: 768px) {
   .hero-background {
     /* Desktop */
-    background-image: linear-gradient(50deg,rgba(44, 175, 214, 0.808) 1%, rgba(224, 224, 224, 0) 50%), url('/Imagens/transição\ dubai-portobelo.webp');
+    background-image: linear-gradient(50deg,rgba(44, 175, 214, 0.808) 1%, rgba(224, 224, 224, 0) 50%), url('/Imagens/REDMENSIONADA.webp');
   }
 }
   
