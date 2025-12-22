@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
       try {
         // 1. Envio para webhook principal (Validação de duplicidade)
-        const response1 = await fetch('https://n8nwebhook.arck1pro.shop/webhook/lpdubai', {
+        const response1 = await fetch('https://n8nwebhook.arck1pro.shop/webhook/lp-lead-direto', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // 2. Envio para webhook secundário (RD Mkt)
         try {
-            const response2 = await fetch('https://n8nwebhook.arck1pro.shop/webhook/lpdubaimkt', { 
+            const response2 = await fetch('https://n8nwebhook.arck1pro.shop/webhook/lp-lead-direto-rdmkt', { 
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(formData)
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // 4. Redirecionamento
-        window.location = 'pg_obrigado.html';
+        window.location = 'obrigado.html';
 
       } catch (error) {
         alert('Ocorreu um erro ao enviar o cadastro. Tente novamente.');
