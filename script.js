@@ -89,13 +89,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.warn('Erro de conexão com RD Mkt', rdError);
         }
         
-        // 3. DISPARO DO PIXEL (CompleteRegistration)
-        // Nota: Certifique-se de que o script base do Facebook Pixel seja carregado em algum momento
-        // para que esta função funcione corretamente.
-        if (typeof fbq === 'function') {
-          fbq('track', 'CompleteRegistration');
-        }
-        
         // 4. Redirecionamento
         window.location = 'obrigado.html';
 
